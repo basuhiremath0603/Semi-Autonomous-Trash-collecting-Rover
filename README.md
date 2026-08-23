@@ -39,7 +39,7 @@ The main controller continuously processes sensor inputs and controls the rover'
 
 ## System Architecture
 
-![EcoBot Block Diagram](docs/block-diagram.png)
+![ Block Diagram](docs/block_diagram.png)
 
 ### Main Components
 
@@ -58,7 +58,7 @@ The main controller continuously processes sensor inputs and controls the rover'
 
 ## How It Works
 
-![EcoBot Flowchart](docs/flowchart.png)
+![Flowchart](docs/flow_chart.png)
 
 ### Autonomous Operation
 
@@ -167,7 +167,7 @@ The 16×2 I2C LCD provides real-time system status messages such as:
 
 ## Project Wiring
 
-![EcoBot Wiring Diagram](hardware/wiring.png)
+![EcoBot Wiring Diagram](connection-diagram.png)
 
 ---
 
@@ -185,7 +185,7 @@ The rover firmware is written for the **ESP32** using the Arduino framework.
 
 The complete firmware is available here:
 
-[`src/EcoBot.ino`](src/EcoBot.ino)
+[`src/EcoBot.ino`](src/rover.ino)
 
 ---
 
