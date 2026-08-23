@@ -39,7 +39,7 @@ The main controller continuously processes sensor inputs and controls the rover'
 
 ## System Architecture
 
-![ Block Diagram](docs/block_diagram.png)
+![ Block Diagram](Semi Autonomous Trash collecting Rover/docs/block_diagram.png)
 
 ### Main Components
 
@@ -58,7 +58,7 @@ The main controller continuously processes sensor inputs and controls the rover'
 
 ## How It Works
 
-![Flowchart](docs/flow_chart.png)
+![Flowchart](Semi Autonomous Trash collecting Rover/docs/flow_chart.png)
 
 ### Autonomous Operation
 
@@ -167,7 +167,7 @@ The 16×2 I2C LCD provides real-time system status messages such as:
 
 ## Project Wiring
 
-![EcoBot Wiring Diagram](connection-diagram.png)
+![EcoBot Wiring Diagram](Semi Autonomous Trash collecting Rover/hardware/connection_diagram.png)
 
 ---
 
@@ -185,7 +185,7 @@ The rover firmware is written for the **ESP32** using the Arduino framework.
 
 The complete firmware is available here:
 
-[`src/EcoBot.ino`](src/rover.ino)
+[`src`](Semi Autonomous Trash collecting Rover/src/rover_code/rover_code.ino)
 
 ---
 
